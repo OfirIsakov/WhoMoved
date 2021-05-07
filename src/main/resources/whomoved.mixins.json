@@ -1,0 +1,18 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.ofirisakov.who.moved.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "ChestBlockMixin",
+        "HopperBlockMixin",
+        "DispenserBlockMixin",
+        "AbstractFurnaceBlockMixin",
+        "BarrelBlockMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }

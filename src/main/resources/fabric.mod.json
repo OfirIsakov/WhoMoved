@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "whomoved",
+  "version": "${version}",
+
+  "name": "Who Moved",
+  "description": "Log players and block events in your minecraft world!",
+  "authors": [
+    "Ofir Isakov"
+  ],
+  "contact": {
+    "homepage": "whomoved.ofirisakov.com",
+    "sources": "https://github.com/ofirisakov/whomoved"
+  },
+
+  "license": "MIT",
+  "icon": "assets/whomoved/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ofirisakov.who.moved.WhoMoved"
+    ]
+  },
+  "mixins": [
+    "whomoved.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
